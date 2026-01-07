@@ -6,11 +6,14 @@ build-backend = "setuptools.build_meta"
 name = "rethink"
 version = "0.1.0"
 description = "Rethink Core module package"
-authors = [{name = "fiandev", email = "alfiansa@proton.me"}]
+authors = [{name = "fiandev", email = "fiandev1234@gmail.com"}]
 dependencies = []
 
+[project.scripts]
+rethink = "rethink.Core:main"
+
 [project.optional-dependencies]
-dev = ["pytest", "black", "flake8"]
+dev = ["pytest"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
