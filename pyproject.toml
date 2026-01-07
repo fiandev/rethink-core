@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rethink"
+name = "rethink-core"
 version = "0.1.0"
 description = "Rethink Core module package"
 authors = [{name = "fiandev", email = "fiandev1234@gmail.com"}]

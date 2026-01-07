@@ -23,7 +23,7 @@ pip install .
 Or install directly if published:
 
 ```bash
-pip install rethink
+pip install rethink-core
 ```
 
 ## Quick Start
